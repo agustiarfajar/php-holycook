@@ -1,0 +1,60 @@
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.5s ease;
+  object-fit: cover;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+
+.kategori_home {
+  overflow: hidden;
+}
+
+.kategori_home img {
+  transition: all 0.5s ease;
+  object-fit: cover;
+}
+
+.kategori_home:hover img {
+  transform: scale(1.1);
+}
+
+.kategori_home p {
+  transition: all 0.5s ease;
+}
+
+.kategori_home:hover p {
+  color: #ff642b;
+}
+
+.resep .judul {
+  transition: all 0.3s ease;
+}
+.resep:hover .judul {
+  color: #ff642b;
+}
+
+.btnLogin {
+  border: 1px solid #ff642b;
+  color: #ff642b;
+}
+.btnLogin:hover {
+  background: #ff642b;
+  border: 1px solid #ff642b;
+}
+
+.btnOren {
+  background: #ff642b;
+  border-color: #ff642b;
+}
+.btnOren:hover {
+  background: #ff642b;
+  border-color: #ff642b;
+  opacity: 0.8;      
+  transition: 0.5s;
+}
